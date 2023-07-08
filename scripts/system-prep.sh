@@ -10,5 +10,5 @@ if [ ! -d /etc/rancher/k3s/config.yaml.d ]; then
   sudo ln -s $(realpath ./config.yaml.d) /etc/rancher/k3s
 fi
 
-curl -sfL https://get.k3s.io -o ./get-k3s
-chmod +x ./get-k3s
+curl -sfL https://get.k3s.io -o ./.get-k3s
+chmod +x ./.get-k3s
